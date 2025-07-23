@@ -25,17 +25,17 @@
             "name": "Placeholder",
             "price": "3499 ₽",
             "description": "Placeholder",
-            "collection_id": 2,
-            "category": "",
+            "collection_id": 1,
+            "category": "Футболки",
             "sizes": ["M", "L", "XL", "XXL"],
-            "images": ["#", "#", "#"]
+            "images": ["/images/collection1/photo_2025-06-24_14-35-19.jpg", "/images/collection1/photo_2025-06-24_14-35-14.jpg"]
         },
         {
             "id": 3,
             "name": "Placeholder",
             "price": "1999 ₽",
             "description": "Placeholder",
-            "collection_id": 3,
+            "collection_id": 2,
             "category": "",
             "sizes": ["Один размер"],
             "images": ["#", "#"]
@@ -45,7 +45,7 @@
             "name": "Placeholder",
             "price": "799 ₽",
             "description": "Placeholder",
-            "collection_id": 1,
+            "collection_id": 3,
             "category": "",
             "sizes": ["36-40", "41-45"],
             "images": ["#", "#"]
@@ -55,7 +55,7 @@
             "name": "Placeholder",
             "price": "4999 ₽",
             "description": "Placeholder",
-            "collection_id": 5,
+            "collection_id": 4,
             "category": "",
             "sizes": ["Один размер"],
             "images": ["#", "#", "#", "#"]
