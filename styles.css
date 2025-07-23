@@ -21,7 +21,8 @@
 body {
     background-color: var(--light);
     color: var(--text);
-    /* display: flex; */
+    display: flex;
+    flex-direction: column;
     min-height: 100vh;
 }
 

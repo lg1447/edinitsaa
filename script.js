@@ -42,7 +42,7 @@ function renderCollections() {
     const allItem = document.createElement('li');
     const allLink = document.createElement('a');
     allLink.href = '#';
-    allLink.innerHTML = '<i class="fas fa-star"></i> Все товары';
+    allLink.innerHTML = 'Все товары';
     allLink.classList.add('active');
     allLink.addEventListener('click', (e) => {
         e.preventDefault();
@@ -56,7 +56,7 @@ function renderCollections() {
         const item = document.createElement('li');
         const link = document.createElement('a');
         link.href = '#';
-        link.innerHTML = `<i class="fas fa-folder"></i> ${collection.name}`;
+        link.innerHTML = collection.name;
         link.addEventListener('click', (e) => {
             e.preventDefault();
             setActiveCollection(collection.id);
@@ -176,8 +176,8 @@ function setActiveCollection(collectionId) {
         pageHeader.textContent = 'Все товары';
     } else {
         const collection = storeData.collections.find(c => c.id === collectionId);
-        document.querySelectorAll('#collection-list a').forEach((link, index) => {
-            if (index === collectionId) link.classList.add('active');
+        document.querySelectorAll('#collection-list a').forEach(link => {
+            if (link.innerHTML === collection.name) link.classList.add('active');
         });
         pageHeader.textContent = collection.name;
     }
