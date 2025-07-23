@@ -21,7 +21,7 @@
 body {
     background-color: var(--light);
     color: var(--text);
-    display: flex;
+    /* display: flex; */
     min-height: 100vh;
 }
 
@@ -437,6 +437,19 @@ body {
 
 .back-button:hover {
     color: var(--accent);
+}
+
+/* Футер */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #000000;
+    font-size: 0.9rem;
+    opacity: 0.7;
+}
+
+footer p {
+    color: #ffffff;
 }
 
 /* Адаптивность */
