@@ -1,0 +1,74 @@
+{
+    "collections": [
+        { "id": 5, "name": "Дроп 5 дд.мм.гггг" },
+        { "id": 4, "name": "Дроп 4 дд.мм.гггг" },
+        { "id": 3, "name": "Дроп 3 дд.мм.гггг" },
+        { "id": 2, "name": "Дроп 2 дд.мм.гггг" },
+        { "id": 1, "name": "Дроп 1 дд.мм.гггг" }
+    ],
+    "categories": [
+        "Футболки"
+    ],
+    "products": [
+        {
+            "id": 1,
+            "name": "Футболка",
+            "price": "<s>1999₽</s> 1499₽",
+            "description": "Placeholder",
+            "collection_id": 1,
+            "category": "Футболки",
+            "sizes": ["S", "M", "L", "XL"],
+            "images": ["/images/collection1/photo_2025-07-12_15-03-36.jpg", "/images/collection1/photo_2025-07-12_15-03-42.jpg"]
+        },
+        {
+            "id": 2,
+            "name": "Placeholder",
+            "price": "3499 ₽",
+            "description": "Placeholder",
+            "collection_id": 2,
+            "category": "",
+            "sizes": ["M", "L", "XL", "XXL"],
+            "images": ["#", "#", "#"]
+        },
+        {
+            "id": 3,
+            "name": "Placeholder",
+            "price": "1999 ₽",
+            "description": "Placeholder",
+            "collection_id": 3,
+            "category": "",
+            "sizes": ["Один размер"],
+            "images": ["#", "#"]
+        },
+        {
+            "id": 4,
+            "name": "Placeholder",
+            "price": "799 ₽",
+            "description": "Placeholder",
+            "collection_id": 1,
+            "category": "",
+            "sizes": ["36-40", "41-45"],
+            "images": ["#", "#"]
+        },
+        {
+            "id": 5,
+            "name": "Placeholder",
+            "price": "4999 ₽",
+            "description": "Placeholder",
+            "collection_id": 5,
+            "category": "",
+            "sizes": ["Один размер"],
+            "images": ["#", "#", "#", "#"]
+        },
+        {
+            "id": 6,
+            "name": "Placeholder",
+            "price": "2999 ₽",
+            "description": "Placeholder",
+            "collection_id": 1,
+            "category": "",
+            "sizes": ["S", "M", "L", "XL"],
+            "images": ["#", "#"]
+        }
+    ]
+}

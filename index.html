@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Единица мерч</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <!-- Боковая панель навигации -->
+    <aside class="sidebar">
+        <div class="logo">
+            <i class="fas">1</i>
+            <h1>Единица мерч</h1>
+        </div>
+        
+        <div class="search-box">
+            <i class="fas fa-search"></i>
+            <input type="text" id="search-input" placeholder="Поиск товаров...">
+        </div>
+        
+        <div class="nav-section">
+            <h3>Коллекции</h3>
+            <ul class="collection-list" id="collection-list">
+                <!-- Коллекции будут загружены через JS -->
+            </ul>
+        </div>
+        
+        <div class="nav-section">
+            <h3>Категории</h3>
+            <div class="category-list" id="category-list">
+                <!-- Категории будут загружены через JS -->
+            </div>
+        </div>
+    </aside>
+    
+    <!-- Основной контент -->
+    <main class="main-content">
+        <div class="page-title">
+            <h2 id="page-header">Все товары</h2>
+            <button class="mobile-toggle" id="mobile-toggle">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+        
+        <!-- Контейнер для товаров -->
+        <div class="products-container">
+            <div class="products-grid" id="products-grid">
+                <!-- Товары будут загружены через JS -->
+            </div>
+            
+            <!-- Страница товара (изначально скрыта) -->
+            <div class="product-detail" id="product-detail">
+                <a href="#" class="back-button" id="back-button">
+                    <i class="fas fa-arrow-left"></i> Назад к товарам
+                </a>
+                <div class="product-detail-container">
+                    <div class="product-gallery">
+                        <div class="main-image" id="main-image">
+                            <!-- Основное изображение товара -->
+                        </div>
+                        <div class="thumbnails" id="thumbnails">
+                            <!-- Миниатюры изображений -->
+                        </div>
+                    </div>
+                    <div class="product-info-detail">
+                        <h2 class="product-title-detail" id="product-title-detail">Название товара</h2>
+                        <div class="product-price-detail" id="product-price-detail">0 ₽</div>
+                        <p class="product-description" id="product-description">Описание товара</p>
+                        
+                        <div class="sizes">
+                            <h4>Доступные размеры:</h4>
+                            <div class="size-options" id="size-options">
+                                <!-- Размеры будут загружены через JS -->
+                            </div>
+                        </div>
+                        
+                        <a href = "https://t.me/OC_OFF" class="buy-button" id="buy-button">
+                            <i class="fas fa-shopping-cart"></i> Перейти к покупке
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <div class="sidebar-overlay" id="sidebar-overlay"></div>
+    <script src="/script.js"></script>
+</body>
+</html>
