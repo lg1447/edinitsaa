@@ -8,7 +8,6 @@ const thumbnails = document.getElementById('thumbnails');
 const productTitleDetail = document.getElementById('product-title-detail');
 const productPriceDetail = document.getElementById('product-price-detail');
 const productDescription = document.getElementById('product-description');
-const sizeOptions = document.getElementById('size-options');
 const searchInput = document.getElementById('search-input');
 const backButton = document.getElementById('back-button');
 const buyButton = document.getElementById('buy-button');
@@ -144,15 +143,6 @@ function showProductDetail(product) {
             thumb.classList.add('active');
         });
         thumbnails.appendChild(thumb);
-    });
-    
-    // Размеры
-    sizeOptions.innerHTML = '';
-    product.sizes.forEach(size => {
-        const sizeEl = document.createElement('div');
-        sizeEl.className = 'size-option';
-        sizeEl.textContent = size;
-        sizeOptions.appendChild(sizeEl);
     });
     
     // Показать детали товара, скрыть список

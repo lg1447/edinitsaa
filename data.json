@@ -16,7 +16,6 @@
             "description": "Placeholder",
             "collection_id": 1,
             "category": "Футболки",
-            "sizes": ["S", "M", "L", "XL"],
             "images": ["/images/collection1/photo_2025-07-12_15-03-36.jpg", "/images/collection1/photo_2025-07-12_15-03-42.jpg"]
         },
         {
@@ -26,7 +25,6 @@
             "description": "Placeholder",
             "collection_id": 1,
             "category": "Футболки",
-            "sizes": ["M", "L", "XL", "XXL"],
             "images": ["/images/collection1/photo_2025-06-24_14-35-19.jpg", "/images/collection1/photo_2025-06-24_14-35-14.jpg"]
         },
         {
@@ -36,7 +34,6 @@
             "description": "Placeholder",
             "collection_id": 2,
             "category": "",
-            "sizes": ["Один размер"],
             "images": ["#", "#"]
         },
         {
@@ -46,7 +43,6 @@
             "description": "Placeholder",
             "collection_id": 3,
             "category": "",
-            "sizes": ["36-40", "41-45"],
             "images": ["#", "#"]
         },
         {
@@ -56,7 +52,6 @@
             "description": "Placeholder",
             "collection_id": 4,
             "category": "",
-            "sizes": ["Один размер"],
             "images": ["#", "#", "#", "#"]
         },
         {
@@ -66,7 +61,6 @@
             "description": "Placeholder",
             "collection_id": 1,
             "category": "",
-            "sizes": ["S", "M", "L", "XL"],
             "images": ["#", "#"]
         }
     ]
