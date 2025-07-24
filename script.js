@@ -125,7 +125,7 @@ function showProductDetail(product) {
     // Заголовок и цена
     productTitleDetail.textContent = product.name;
     productPriceDetail.innerHTML = product.price;
-    productDescription.textContent = product.description;
+    productDescription.innerHTML = product.description;
     
     // Основное изображение
     mainImage.innerHTML = `<img src="${product.images[0]}" alt="${product.name}">`;

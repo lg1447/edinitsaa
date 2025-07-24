@@ -2,13 +2,19 @@
     --primary: #4a6fa5;
     --secondary: #6b8cbc;
     --accent: #ff6b6b;
-    --dark: #2c3e50;
-    --light: #f5f7fa;
+    --background-second: rgb(8, 174, 127);
+    --background-second-active: rgb(21, 159, 120);
+    --background: linear-gradient(to bottom, rgba(43, 111, 83, 0.7), rgb(245, 245, 245));
     --gray: #e0e0e0;
     --text: #333;
     --text-light: #777;
     --shadow: 0 4px 6px rgba(0,0,0,0.1);
     --transition: all 0.3s ease;
+}
+
+a {
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
 }
 
 * {
@@ -19,7 +25,7 @@
 }
 
 body {
-    background-color: var(--light);
+    background: var(--background);
     color: var(--text);
     display: flex;
     flex-direction: column;
@@ -29,7 +35,7 @@ body {
 /* Навигационная панель */
 .sidebar {
     width: 280px;
-    background: var(--dark);
+    background: var(--background-second);
     color: white;
     padding: 20px;
     height: 100vh;
@@ -106,7 +112,6 @@ body {
     padding: 10px 15px;
     border-radius: 8px;
     color: white;
-    text-decoration: none;
     transition: var(--transition);
     display: flex;
     align-items: center;
@@ -136,12 +141,11 @@ body {
     padding: 8px 15px;
     border-radius: 30px;
     font-size: 14px;
-    text-decoration: none;
     transition: var(--transition);
 }
 
 .category-list a:hover {
-    background: var(--accent);
+    background: rgba(255,255,255,0.1);
 }
 
 /* Основной контент */
@@ -161,7 +165,7 @@ body {
 
 .page-title h2 {
     font-size: 28px;
-    color: var(--dark);
+    color: white;
 }
 
 .mobile-toggle {
@@ -194,19 +198,6 @@ body {
 .product-card:hover {
     transform: translateY(-5px);
     box-shadow: 0 10px 20px rgba(0,0,0,0.1);
-}
-
-.product-badge {
-    position: absolute;
-    top: 15px;
-    left: 15px;
-    background: var(--accent);
-    color: white;
-    padding: 5px 10px;
-    border-radius: 30px;
-    font-size: 12px;
-    font-weight: 600;
-    z-index: 2;
 }
 
 .product-image {
@@ -254,7 +245,7 @@ body {
     font-size: 18px;
     font-weight: 600;
     margin-bottom: 8px;
-    color: var(--dark);
+    color: var(--text-light);
 }
 
 .product-price {
@@ -342,7 +333,7 @@ body {
 }
 
 .thumbnail:hover, .thumbnail.active {
-    border-color: var(--accent);
+    border-color: var(--background-second-active);
 }
 
 .thumbnail img {
@@ -360,7 +351,7 @@ body {
 .product-title-detail {
     font-size: 28px;
     margin-bottom: 10px;
-    color: var(--dark);
+    color: var(--text-light);
 }
 
 .product-price-detail {
@@ -402,7 +393,7 @@ body {
 
 .buy-button {
     display: inline-block;
-    background: var(--accent);
+    background: var(--background-second);
     color: white;
     padding: 15px 30px;
     border-radius: 8px;
@@ -417,7 +408,7 @@ body {
 }
 
 .buy-button:hover {
-    background: #ff5252;
+    background: var(--background-second-active);
     transform: translateY(-3px);
     box-shadow: 0 5px 15px rgba(255,107,107,0.4);
 }
@@ -437,7 +428,7 @@ body {
 }
 
 .back-button:hover {
-    color: var(--accent);
+    color: var(--background-second);
 }
 
 /* Футер */
