@@ -25,11 +25,11 @@
         },
         {
             "name": "Худи \"IHMAIWTD\"",
-            "price": "3333 ₽",
+            "price": "<s>3333 ₽</s> 1555 ₽",
             "description": "Худи \"IHMAIWTD\"<br>Мерч исполнителя \"Единица\"<br>Ручная работа специальными красками по ткани.<br>Принт является уникальным и не повторится на других футболка.<br>При стирке не потускнеет и не сотрётся, не отвалится.<br><br>Состав: 100% - хлопок<br>Размер: 52<br>Цена: 3333₽ + доставка (в районе 380₽)",
             "collection_id": 2,
             "category": "Худи",
-            "images": ["/images/specificity/photo_2025-07-26_21-27-34.jpg", "/images/specificity/photo_2025-07-26_21-27-41.jpg", "/images/specificity/photo_2025-07-26_21-21-04 (3).jpg"]
+            "images": ["/images/specificity/IMG_20250729_125945_825.jpg", "/images/specificity/IMG_20250729_125945_604.jpg", "/images/specificity/photo_2025-07-26_21-21-04 (3).jpg"]
         },
         {
             "name": "Розовая футболка \"FAKE CHEESE\"",
