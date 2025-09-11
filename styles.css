@@ -99,6 +99,22 @@ body {
     letter-spacing: 1px;
 }
 
+.in_stock {
+    display: block;
+    background: rgba(255,255,255,0.05);
+    color: white;
+    padding: 10px 15px;
+    border-radius: 30px;
+    font-size: 18px;
+    transition: var(--transition);
+    align-items: center;
+    text-align: center;
+}
+
+.in_stock:hover, .in_stock.active {
+    background: rgba(255,255,255,0.1);
+}
+
 .collection-list {
     list-style: none;
 }

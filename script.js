@@ -1,4 +1,5 @@
 // DOM элементы
+const inStock = document.getElementById('in_stock');
 const collectionList = document.getElementById('collection-list');
 const categoryList = document.getElementById('category-list');
 const productsGrid = document.getElementById('products-grid');
@@ -213,12 +214,25 @@ function filterProducts() {
             p.category.toLowerCase().includes(searchTerm)
         );
     }
+
+    filteredProducts = filteredProducts.filter(p => in_stock.classList.contains('active') <= p.in_stock);
     
     renderProducts(filteredProducts);
 }
 
 // Настройка обработчиков событий
 function setupEventListeners() {
+    // В наличии
+    in_stock.addEventListener('click', (e) => {
+        e.preventDefault();
+        if (in_stock.classList.contains('active')) {
+            in_stock.classList.remove('active');
+        } else {
+            in_stock.classList.add('active');
+        }
+        filterProducts();
+    });
+    
     // Поиск
     searchInput.addEventListener('input', (e) => {
         currentSearch = e.target.value;
