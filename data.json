@@ -16,7 +16,7 @@
             "collection_id": 4,
             "category": "Логсливы",
             "images": ["/images/latest_merch/photo_2025-09-15_12-12-21.jpg", "/images/latest_merch/photo_2025-09-15_12-12-21 (2).jpg", "/images/latest_merch/photo_2025-09-15_12-12-21 (3).jpg"],
-            "in_stock": true
+            "in_stock": false
         },
         {
             "name": "Чёрный лонгслив \"1\"",
@@ -88,7 +88,7 @@
             "collection_id": 3,
             "category": "Футболки",
             "images": ["/images/juliana/photo_2025-09-15_12-12-25.jpg", "/images/juliana/photo_2025-09-15_12-12-25 (2).jpg"],
-            "in_stock": true
+            "in_stock": false
         },
         {
             "name": "Чёрная футболка \"Единица\"",
@@ -115,7 +115,7 @@
             "collection_id": 2,
             "category": "Худи",
             "images": ["/images/specificity/photo_2025-09-15_12-12-37.jpg", "/images/specificity/photo_2025-09-15_12-12-37 (2).jpg", "/images/specificity/photo_2025-07-26_21-21-04 (3).jpg"],
-            "in_stock": true
+            "in_stock": false
         },
         {
             "name": "Розовая футболка \"FAKE CHEESE\"",
