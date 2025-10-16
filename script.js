@@ -273,5 +273,5 @@ function setupEventListeners() {
 
 // Запуск приложения
 document.addEventListener('DOMContentLoaded', () => {
-    fetch('/data.json').then(response => response.json()).then(data => { storeData = data; initApp(); })
+    fetch('/data.json', { cache: 'no-store' }).then(response => response.json()).then(data => { storeData = data; initApp(); })
 });
