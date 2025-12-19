@@ -141,8 +141,8 @@
             "description": "Нашивка \"1\"<br>Мерч исполнителя \"Единица\"<br>Ручная работа специальными красками по ткани.<br>Принт является уникальным.<br><br>Размер: на фотографии<br>Цена: 444₽ + доставка (в районе 100₽)",
             "collection_id": 2,
             "category": "Нашивки",
-            "images": ["/images/specificity/photo_2025-07-26_21-32-48.jpg", "/images/specificity/photo_2025-07-26_21-21-04 (6).jpg"],
-            "in_stock": true
+            "images": ["/images/specificity/IMG_20251219_140019_479.jpg", "/images/specificity/photo_2025-07-26_21-21-04 (6).jpg"],
+            "in_stock": false
         },
         {
             "name": "Футболка \"ЧС/ЧС\"",
